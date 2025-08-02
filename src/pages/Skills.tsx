@@ -118,7 +118,7 @@ const Skills: React.FC = () => {
 
         {/* Learning & Growth */}
         <div className="mt-16">
-          <Card delay={1.0}>
+          {/* <Card delay={1.0}>
             <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">Apprentissage Continu</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -157,7 +157,7 @@ const Skills: React.FC = () => {
                 </div>
               </div>
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </div>

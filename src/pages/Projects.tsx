@@ -21,20 +21,20 @@ const Projects: React.FC = () => {
       ],
       type: 'web'
     },
-    {
-      id: 'ecommerce',
-      title: 'E-commerce Mobile',
-      description: 'Application mobile de commerce électronique avec gestion des produits, panier et paiements.',
-      period: 'Octobre - Novembre 2024',
-      technologies: ['React Native', 'Firebase', 'Stripe', 'Redux'],
-      features: [
-        'Catalogue de produits dynamique',
-        'Panier et favoris',
-        'Paiements sécurisés',
-        'Notifications push'
-      ],
-      type: 'mobile'
-    }
+    // {
+    //   id: 'ecommerce',
+    //   title: 'E-commerce Mobile',
+    //   description: 'Application mobile de commerce électronique avec gestion des produits, panier et paiements.',
+    //   period: 'Octobre - Novembre 2024',
+    //   technologies: ['React Native', 'Firebase', 'Stripe', 'Redux'],
+    //   features: [
+    //     'Catalogue de produits dynamique',
+    //     'Panier et favoris',
+    //     'Paiements sécurisés',
+    //     'Notifications push'
+    //   ],
+    //   type: 'mobile'
+    // }
   ];
 
   const allProjects = [...projects, ...additionalProjects];
@@ -168,7 +168,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Work in Progress */}
-        <Card delay={1.0} className="mt-16">
+        {/* <Card delay={1.0} className="mt-16">
           <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">
             Projets en Cours & À Venir
           </h2>
@@ -196,12 +196,12 @@ const Projects: React.FC = () => {
               </div>
             </div>
           </div>
-        </Card>
+        </Card> */}
 
         {/* GitHub Stats */}
         <Card delay={1.2} className="mt-16">
           <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">
-            Contribution Open Source
+            Mon Github
           </h2>
           
           <div className="text-center">

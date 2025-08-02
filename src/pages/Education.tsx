@@ -25,9 +25,9 @@ const Education: React.FC = () => {
   ];
 
   const certifications = [
-    'React - The Complete Guide (Udemy)',
-    'Node.js - The Complete Guide (Udemy)',
-    'React Native - Practical Guide (Udemy)',
+    'React - The Complete Guide ',
+    'Node.js - The Complete Guide ',
+    'React Native - Practical Guide ',
     'Firebase Fundamentals',
     'Git & GitHub Masterclass'
   ];
@@ -129,7 +129,7 @@ const Education: React.FC = () => {
                 </motion.div>
               ))}
               
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.5, duration: 0.5 }}
@@ -139,7 +139,7 @@ const Education: React.FC = () => {
                   <strong>En cours:</strong> AWS Solutions Architect Associate, 
                   Advanced React Patterns, Docker & Kubernetes Fundamentals
                 </p>
-              </motion.div>
+              </motion.div> */}
             </div>
           </Card>
         </div>

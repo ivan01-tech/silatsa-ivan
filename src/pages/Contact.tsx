@@ -138,7 +138,7 @@ const Contact: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <Card delay={0.4}>
+          {/* <Card delay={0.4}>
             <h2 className="text-2xl font-bold text-slate-800 mb-6">Envoyez-moi un message</h2>
             
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -228,7 +228,7 @@ const Contact: React.FC = () => {
                 )}
               </motion.button>
             </form>
-          </Card>
+          </Card> */}
 
           {/* Contact Info & Social */}
           <div className="space-y-8">
@@ -302,7 +302,7 @@ const Contact: React.FC = () => {
                 
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>📅 Réponse sous 24h maximum</p>
-                  <p>⏰ Disponible du lundi au vendredi (8h - 18h GMT+1)</p>
+                  <p>⏰ Disponible du lundi au samedi (8h - 21h GMT+1)</p>
                   <p>🌍 Ouvert aux collaborations locales et internationales</p>
                 </div>
               </div>

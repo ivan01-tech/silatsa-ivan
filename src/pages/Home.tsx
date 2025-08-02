@@ -1,30 +1,37 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ChevronRight, Download, Code, Smartphone, Server, Globe } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import {
+  ChevronRight,
+  Download,
+  Code,
+  Smartphone,
+  Server,
+  Globe,
+} from "lucide-react";
 
 const Home: React.FC = () => {
   const features = [
     {
       icon: Code,
-      title: 'Frontend Development',
-      description: 'React, Next.js, TypeScript'
+      title: "Frontend Development",
+      description: "React, Next.js, TypeScript",
     },
     {
       icon: Server,
-      title: 'Backend Development',
-      description: 'Node.js, NestJS, Firebase'
+      title: "Backend Development",
+      description: "Node.js, NestJS, Firebase",
     },
     {
       icon: Smartphone,
-      title: 'Mobile Development',
-      description: 'React Native, iOS & Android'
+      title: "Mobile Development",
+      description: "React Native, iOS & Android",
     },
     {
       icon: Globe,
-      title: 'Full Stack Solutions',
-      description: 'Applications complètes end-to-end'
-    }
+      title: "Full Stack Solutions",
+      description: "Applications complètes end-to-end",
+    },
   ];
 
   return (
@@ -32,7 +39,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-amber-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
-        
+
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-72 h-72 bg-gradient-to-r from-amber-400 to-orange-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -65,8 +72,8 @@ const Home: React.FC = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
                 className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed"
               >
-                23-year-old Fullstack Developer passionate about building impactful 
-                web and mobile applications using React, Node.js, and Firebase.
+                Fullstack Developer passionate about building impactful web and
+                mobile applications using React, Node.js, and Firebase.
               </motion.p>
 
               <motion.div
@@ -144,8 +151,8 @@ const Home: React.FC = () => {
               Mes Spécialités
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Je développe des solutions complètes, du frontend au backend, 
-              en passant par les applications mobiles.
+              Je développe des solutions complètes, du frontend au backend, en
+              passant par les applications mobiles.
             </p>
           </motion.div>
 
@@ -164,7 +171,9 @@ const Home: React.FC = () => {
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl mb-6 group-hover:from-amber-200 group-hover:to-orange-200 transition-all duration-300">
                     <Icon size={32} className="text-slate-700" />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-800 mb-3">{feature.title}</h3>
+                  <h3 className="text-xl font-bold text-slate-800 mb-3">
+                    {feature.title}
+                  </h3>
                   <p className="text-gray-600">{feature.description}</p>
                 </motion.div>
               );
@@ -185,8 +194,8 @@ const Home: React.FC = () => {
               Prêt à collaborer ?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Je suis toujours ouvert aux nouvelles opportunités et aux projets passionnants. 
-              N'hésitez pas à me contacter !
+              Je suis toujours ouvert aux nouvelles opportunités et aux projets
+              passionnants. N'hésitez pas à me contacter !
             </p>
             <Link
               to="/contact"
