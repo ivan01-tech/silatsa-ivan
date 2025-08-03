@@ -34,7 +34,7 @@ export const experiences: Experience[] = [
     id: 'sahel-btp',
     title: 'React Native Developer',
     company: 'Sahel BTP',
-    period: 'Mai 2024 - Présent',
+    period: 'Mai 2024',
     description: 'Développement d\'applications mobiles avec React Native et Firebase, implémentation des notifications (FCM), cloud functions.',
     responsibilities: [
       'Développement d\'applications mobiles React Native',

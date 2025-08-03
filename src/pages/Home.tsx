@@ -89,11 +89,16 @@ const Home: React.FC = () => {
                   Voir mes projets
                   <ChevronRight size={20} className="ml-2" />
                 </Link>
-
-                <button className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 hover:border-white/50 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105">
+                {/* Ex : public/cv-ivan-silatsa.pdf
+                 */}
+                <a
+                  href="/cv-ivan-silatsa_ori.pdf"
+                  download
+                  className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 hover:border-white/50 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105"
+                >
                   <Download size={20} className="mr-2" />
                   Télécharger CV
-                </button>
+                </a>
               </motion.div>
 
               {/* Stats */}
