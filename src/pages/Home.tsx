@@ -92,7 +92,7 @@ const Home: React.FC = () => {
                 {/* Ex : public/cv-ivan-silatsa.pdf
                  */}
                 <a
-                  href="/cv-ivan-silatsa_ori.pdf"
+                  href="/cv_silatsa_ivan_ori.pdf"
                   download
                   className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 hover:border-white/50 text-white font-semibold rounded-lg transition-all duration-200 transform hover:scale-105"
                 >
