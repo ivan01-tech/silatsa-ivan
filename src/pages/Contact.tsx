@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/silatsa-ivan',
+      href: 'https://github.com/ivan01-tech',
       color: 'hover:text-gray-900'
     },
     {

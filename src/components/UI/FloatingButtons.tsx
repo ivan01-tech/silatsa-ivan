@@ -27,7 +27,7 @@ const FloatingButtons: React.FC = () => {
     },
     {
       icon: Github,
-      onClick: () => window.open('https://github.com/silatsa-ivan', '_blank'),
+      onClick: () => window.open('https://github.com/ivan01-tech', '_blank'),
       className: 'bg-gray-800 hover:bg-gray-900 text-white',
       label: 'GitHub'
     },
