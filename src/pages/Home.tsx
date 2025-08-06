@@ -8,6 +8,7 @@ import {
   Smartphone,
   Server,
   Globe,
+  Image,
 } from "lucide-react";
 
 const Home: React.FC = () => {
@@ -122,8 +123,6 @@ const Home: React.FC = () => {
                 </div>
               </motion.div>
             </motion.div>
-
-            {/* Profile Image */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -133,8 +132,14 @@ const Home: React.FC = () => {
               <div className="relative w-80 h-80 mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-400 to-orange-400 rounded-full blur-lg opacity-30 animate-pulse"></div>
                 <div className="relative w-full h-full bg-gradient-to-br from-amber-100 to-orange-100 rounded-full flex items-center justify-center shadow-2xl">
-                  <div className="w-64 h-64 bg-gradient-to-br from-slate-700 to-slate-800 rounded-full flex items-center justify-center">
-                    <span className="text-6xl font-bold text-white">SI</span>
+                  <div className="w-64 h-64 rounded-full overflow-hidden">
+                    <img
+                      src="/MOI.jpg"
+                      alt="Photo de profil"
+                      width={256}
+                      height={256}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                 </div>
               </div>
